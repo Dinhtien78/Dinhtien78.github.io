@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sách Văn Học - Bookworm Haven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="baitaplon.css">
+</head>
+<body>
+    <!-- Header giống hệt index.html -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo"><i class="fas fa-book-open"></i> Bookworm</a>
+            <nav class="nav-links">
+                <a href="index.html">Trang chủ</a>
+                <!-- Đánh dấu trang hiện tại bằng màu cam -->
+                <a href="sachvanhoc.html" style="color: var(--primary-color);">Sách Văn Học</a>
+                <a href="sachC++.html">Sách học C++</a>
+                <a href="sachnghethuat.html">Sách nghệ thuật</a>
+            </nav>
+            <div class="header-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i><span class="cart-count">1</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="section-header">
+            <h2>Tủ Sách Văn Học</h2>
+            <p>Những tác phẩm kinh điển nuôi dưỡng tâm hồn</p>
+        </div>
+
+        <div class="book-grid">
+            <!-- Sách 1 -->
+            <div class="book-card">
+                <div class="book-inner">
+                    <div class="badge">Best Seller</div>
+                    <div class="book-cover">
+                        <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Nhà Giả Kim">
+                    </div>
+                    <div class="book-info">
+                        <div style="color: #999; font-size: 12px;">VĂN HỌC</div>
+                        <h3 class="book-title">Nhà Giả Kim</h3>
+                        <div style="font-style: italic; font-size: 14px; margin-bottom: 5px;">Paulo Coelho</div>
+                        <div class="book-price">79.000đ</div>
+                        <button class="btn-add"><i class="fas fa-cart-plus"></i> Thêm giỏ hàng</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sách 2 -->
+            <div class="book-card">
+                <div class="book-inner">
+                    <div class="book-cover">
+                        <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Rừng Na Uy">
+                    </div>
+                    <div class="book-info">
+                        <div style="color: #999; font-size: 12px;">TIỂU THUYẾT</div>
+                        <h3 class="book-title">Rừng Na Uy</h3>
+                        <div style="font-style: italic; font-size: 14px; margin-bottom: 5px;">Haruki Murakami</div>
+                        <div class="book-price">110.000đ</div>
+                        <button class="btn-add"><i class="fas fa-cart-plus"></i> Thêm giỏ hàng</button>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Sách 3 -->
+             <div class="book-card">
+                <div class="book-inner">
+                    <div class="book-cover">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Số Đỏ">
+                    </div>
+                    <div class="book-info">
+                        <div style="color: #999; font-size: 12px;">VĂN HỌC VIỆT NAM</div>
+                        <h3 class="book-title">Số Đỏ</h3>
+                        <div style="font-style: italic; font-size: 14px; margin-bottom: 5px;">Vũ Trọng Phụng</div>
+                        <div class="book-price">65.000đ</div>
+                        <button class="btn-add"><i class="fas fa-cart-plus"></i> Thêm giỏ hàng</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sách 4 -->
+            <div class="book-card">
+                <div class="book-inner">
+                    <div class="book-cover">
+                        <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Mắt Biếc">
+                    </div>
+                    <div class="book-info">
+                        <div style="color: #999; font-size: 12px;">TRUYỆN DÀI</div>
+                        <h3 class="book-title">Mắt Biếc</h3>
+                        <div style="font-style: italic; font-size: 14px; margin-bottom: 5px;">Nguyễn Nhật Ánh</div>
+                        <div class="book-price">90.000đ</div>
+                        <button class="btn-add"><i class="fas fa-cart-plus"></i> Thêm giỏ hàng</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div><h4>Về Bookworm</h4><p style="color: #95a5a6; font-size: 14px;">Website bán sách uy tín do sinh viên thực hiện.</p></div>
+            <div><h4>Liên Hệ</h4><ul style="font-size: 14px; color: #bdc3c7;"><li><i class="fas fa-map-marker-alt"></i> Đại học CNTT</li><li><i class="fas fa-envelope"></i> student@email.com</li></ul></div>
+        </div>
+        <div class="copyright">&copy; 2025 Bookworm Haven.</div>
+    </footer>
+</body>
+</html>
